@@ -1,13 +1,13 @@
 # Real-Time Weapon Detection with TensorFlow Object Detection API
 
-![Image description](http://github.com/ahmedriaz12/-Real-Time-Weapon-Detection-with-TensorFlow/blob/master/Demo/de1.gif)
+![Image description](http://github.com/ahmedriaz12/-Real-Time-Weapon-Detection-with-TensorFlow/blob/master/demo/de1.gif)
 
 ## Problem Statement
 Over the past decade, the frequency of mass shootings in schools has increased dramatically. Gun violence on school grounds has left many children injured or killed, reflecting a wider issue of firearm-related violence in the United States. As long-term solutions are debated, there is a growing need for immediate alternatives that can help reduce or prevent such incidents.
 
 On average, police response time is around 18 minutes. During an active shooting, calling 911 may not be possible right away—people often need to find safety first, which delays the process. This means the 18 minutes only accounts for response time after the call, not the time it takes to make it.
 
-![Image description](http://github.com/ahmedriaz12/-Real-Time-Weapon-Detection-with-TensorFlow/blob/master/Demo/respons_time.png)
+![Image description](http://github.com/ahmedriaz12/-Real-Time-Weapon-Detection-with-TensorFlow/blob/master/demo/respons_time.png)
 
 ## Project Overview
 This project explores the use of real-time weapon detection integrated with CCTV cameras to drastically reduce police response time. The object detection model is designed to identify weapons in images, videos, or live video streams.
@@ -66,11 +66,11 @@ TensorBoard was used to monitor performance metrics like loss and Mean Average P
 ## Model Evaluation
 The evaluation primarily focused on **mAP** scores and **Intersection over Union (IoU)** thresholds:
 
-![Image description](http://github.com/ahmedriaz12/-Real-Time-Weapon-Detection-with-TensorFlow/blob/master/Demo/IOU.png)
+![Image description](http://github.com/ahmedriaz12/-Real-Time-Weapon-Detection-with-TensorFlow/blob/master/demo/IOU.png)
 
 A detection is considered **True Positive** if its IoU exceeds the chosen threshold, otherwise it’s classified as **False Positive**.
 
-![Image description](http://github.com/ahmedriaz12/-Real-Time-Weapon-Detection-with-TensorFlow/blob/master/Demo/mAP%40.5IOU.png)
+![Image description](http://github.com/ahmedriaz12/-Real-Time-Weapon-Detection-with-TensorFlow/blob/master/demo/mAP%40.5IOU.png)
 
 ## Conclusion
 This project demonstrates how AI-powered surveillance can help reduce police response time during firearm-related incidents. While further improvements are needed to minimize false positives, the method shows strong potential as a preventive tool.
