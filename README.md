@@ -1,6 +1,6 @@
 # Real-Time Weapon Detection with TensorFlow Object Detection API
 
-![Image description](http://github.com/ahmedriaz12/-Real-Time-Weapon-Detection-with-TensorFlow/blob/master/proj-demo/de1.gif)
+![Image description](https://raw.githubusercontent.com/ahmedriaz12/-Real-Time-Weapon-Detection-with-TensorFlow/master/proj-demo/de1.gif)
 
 ## Problem Statement
 Over the past decade, the frequency of mass shootings in schools has increased dramatically. Gun violence on school grounds has left many children injured or killed, reflecting a wider issue of firearm-related violence in the United States. As long-term solutions are debated, there is a growing need for immediate alternatives that can help reduce or prevent such incidents.
